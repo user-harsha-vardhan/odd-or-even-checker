@@ -15,10 +15,10 @@ fun main() {
  //even Checker with if statements
     println("enter a number :")
     val input1 = readln()
-    val numberInt2 = input.toIntOrNull()
+    val numberInt2 = input1.toIntOrNull()
     if (numberInt == null){
         println("enter a valid input")
-    } else if (numberInt % 2 == 0){
+    } else if (numberInt2?.rem(2) == 0){
         println("the number is even")
     } else {
         println("the number is odd")
